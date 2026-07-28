@@ -42,20 +42,5 @@ arty-a7-peripherals/
 The simplest possible design — each of the 4 slide switches directly drives the corresponding onboard LED, with no clock involved. This stage exists purely to verify the full toolchain works end-to-end: Vivado project setup, pin constraints, synthesis, implementation, bitstream generation, and successfully programming the physical board.
 
 ## Demo
-
-<!--
-Add your demo video here. A few options:
-1. Upload the video file directly to the repo (GitHub supports video preview for files under 10 MB,
-   or up to 100 MB via git if you don't mind repo size).
-2. Host on YouTube and embed a thumbnail link, e.g.:
-
-   [![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-3. Convert to a GIF (e.g. using ffmpeg) and embed directly - GIFs autoplay in the README, which
-   looks best for short demos:
-
-   ![Demo](docs/demo.gif)
--->
-
 ![Stage 1 Demo](docs/demo.gif)
 
