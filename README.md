@@ -57,3 +57,5 @@ Add your demo video here. A few options:
    ![Demo](docs/demo.gif)
 -->
 
+![Stage 1 Demo](docs/demo.gif)
+
