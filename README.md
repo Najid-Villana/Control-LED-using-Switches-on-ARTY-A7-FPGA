@@ -10,16 +10,7 @@ Each stage is a self-contained SystemVerilog design that introduces one new conc
 - **FPGA:** Xilinx Artix-7 (`xc7a100tcsg324-1`)
 - **Tool:** Xilinx Vivado
 
-## Roadmap / Stages
 
-| Stage | Project | Concepts Introduced | Status |
-|-------|---------|---------------------|--------|
-| 1 | Switch → LED passthrough | Vivado project flow, XDC constraints, bitstream generation | ✅ Done |
-| 2 | Debounced button counter | Clocked processes, sequential logic, debouncing | 🔲 Planned |
-| 3 | PWM LED dimmer | PWM generation, timing counters | 🔲 Planned |
-| 4 | RGB LED color mixer | Multi-channel PWM, resource sharing | 🔲 Planned |
-| 5 | XADC analog input reader | IP integration, analog-to-digital pipeline | 🔲 Planned |
-| 6 | Combined peripheral dashboard | Top-level integration, testbenches | 🔲 Planned |
 
 ## Repository Structure
 
@@ -66,8 +57,3 @@ Add your demo video here. A few options:
    ![Demo](docs/demo.gif)
 -->
 
-*(Video/GIF of the FPGA running will go here.)*
-
-## Notes
-
-Built as part of a self-directed learning track on FPGA design, alongside coursework in the INSPIRE IC Design Training program.
